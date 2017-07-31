@@ -22,6 +22,10 @@
 /* note fonts */
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+body {
+    background-color: #F0E68C;
+}
+
 h1,
 h2,
 h3,
@@ -60,13 +64,12 @@ section#featureSection {
     text-align: center;
     border-bottom: 3px solid #5d5a5a;
     line-height: 3px;
-    margin: 50px  20px;
+    margin: 50px 20px;
 }
 
 .section-title span {
-    background: white;
-    padding: 0px 0px;
-    
+    background: #F0E68C;
+    padding: 20px 20px;
 }
 
 .sub-section-title {
@@ -145,9 +148,11 @@ header.jumbotron h1 {
 
 
 /* note subscribeSection */
+
 .section2 {
     background-color: #ef1111;
 }
+
 .section1 {
     background-color: #7b7b7b;
 }
@@ -328,7 +333,6 @@ footer {
     background-color: #314858;
     color: white;
     text-align: center;
-   
 }
 
 footer * {
@@ -387,7 +391,6 @@ footer * {
     float: left
 }
 
-
 #goBack {
     width: 80px;
     height: 80px;
@@ -402,4 +405,3 @@ footer * {
         outline: none;
     }
 }
-

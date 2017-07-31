@@ -4,6 +4,9 @@
 /* todo 雙數的section背景色要是#fff */
 /* note fonts */
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700");
+body {
+  background-color: #F0E68C; }
+
 h1,
 h2,
 h3,
@@ -36,11 +39,11 @@ section#featureSection {
   text-align: center;
   border-bottom: 3px solid #5d5a5a;
   line-height: 3px;
-  margin: 50px  20px; }
+  margin: 50px 20px; }
 
 .section-title span {
-  background: white;
-  padding: 0px 0px; }
+  background: #F0E68C;
+  padding: 20px 20px; }
 
 .sub-section-title {
   text-align: center;
